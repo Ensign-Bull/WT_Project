@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+    <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href = "style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+</head>
+<body>
+    <div  id = "box" class = "main" class = "container">
+        <h1  id = "h1" style = text-align:center> Students Interests Form </h1>
+        <form style = text-align:center>
+            <lable for="Name"> <b>Enter your name:</b> </lable> 
+            <input type="text" id="name" name="Name"> <br><br>
+            <lable for="Department"> <b>Enter your department:</b> </lable>
+            <input type="text" id="Department" name="Department"> <br><br>
+            <lable for="Message"> Tell us a little about yourself: </lable>
+            <textarea id="Message" name="Message" rows="5" cols=""> </textarea> <br><br>
+            <lable for = "exercise" > Do you exerciese at home?</lable>
+            <input type = "radio" name = "Yes" value = "Yes"> Yes <input type = "radio" name = "No" value = "No"> NO<br><br>
+            How do you like to read about your favourite topics?<br><br>
+            <input type = "checkbox" name = "books" value = "books">Books <input type = "checkbox" name = "books" value = "books">Online resources <input type = "checkbox" name = "books" value = "books">Phone apps <input type = "checkbox" name = "books" value = "books">Magazines<br><br> 
+            What genre of movies do you like?
+            <select name = "movies" id = "movies">
+                <option value = "Comedy"> Comedy</option>
+                <option value = "Action"> Action</option>
+                <option value = "Thriller"> Thriller</option>
+                <option value = "Horror"> Horror</option>
+            </select><br><br>
+            <input id = "submit" type="submit" value="Submit form">
+        </form>
+        </div>
+</body>
+</html>

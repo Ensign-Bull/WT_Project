@@ -1,0 +1,40 @@
+h1{
+    color:green;
+    
+}
+header{
+    background-color:azure;
+    text-align: center;
+    padding: 1px;
+}
+nav{
+    background-color:antiquewhite;
+    
+}
+a{
+    text-decoration: none;
+    padding: 5px;
+}
+
+aside{
+    background-color: yellowgreen;
+    height: 515px;
+}
+article{
+    background-color:beige;
+    width: 600px;
+    padding: 15px 15px 0px 15px; 
+    float: left;
+    height: 500px;
+}
+a:hover{
+    text-decoration: underline blueviolet;
+}
+input[type=text]{
+    background-color: bisque;
+}
+footer{
+    background-color: bisque;
+    clear:both;
+    height: 50px;;
+}

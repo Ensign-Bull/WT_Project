@@ -1,0 +1,12 @@
+.main {
+    margin: 100px 50px 25px 50px;
+}
+#box {
+    background-color:lightyellow;
+    border : 2px solid;
+    border-radius : 10px;
+    padding : 10px 5px 10px 5px;
+}
+#h1{
+    color:crimson;
+}
